@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 let posts = [];
 
+
 //home page
 app.get('/', (req, res) => {
   res.render('index', { posts });
